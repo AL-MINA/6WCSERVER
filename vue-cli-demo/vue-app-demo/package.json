@@ -1,0 +1,22 @@
+{
+  "name": "vue-app-demo",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bulma": "^1.0.2",
+    "font-awesome": "^4.7.0",
+    "vue": "^3.4.29",
+    "vue-app-demo": "file:"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "vite": "^5.3.1"
+  }
+}

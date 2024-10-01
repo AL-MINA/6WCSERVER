@@ -1,0 +1,44 @@
+:root {
+    /* title text */
+    --font-extra-small: 1.2em;
+    --font-small: 1.6em;
+    --font-medium: 2em;
+    --font-large: 2.5em;
+
+    /* body text */
+    --font-body-small: 0.9rem;
+    --font-body-medium: 1.2rem;
+    --font-body-large: 1.4rem;
+
+    /* margenes */
+    --mb-small: 0.8em;
+    --mb-medium: 1.2em;
+    --mb-large: 1.6em;
+    --mb-extra-large: 2em;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'GeneralSans-Regular', sans-serif;
+}
+
+body {
+    background-color: #F0F2F1;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* SCROLL BAR */
+::-webkit-scrollbar {
+    width: 0.4rem;
+    background: #1D1D1B;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #F0F2F1;
+    border-radius: .3rem;
+}
